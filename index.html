@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Core Practices for Teaching Multilingual Students | Education & Literacy</title>
+  <link rel="icon" type="image/x-icon" href="img\CPLogo-temp.png">
+  <meta name="description" content="Research and resources to support equitable, humanizing instruction." />
+  <link rel="stylesheet" href="styles.css" />
+<!-- League Spartan (Google Fonts) -->
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Glacial Indifference (self-hosted example) -->
+<style>
+@font-face{
+  font-family: "Glacial Indifference";
+  src: url("/fonts/GlacialIndifference-Regular.otf") format("otf"),
+       url("/fonts/GlacialIndifference-Regular.otf") format("otf");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face{
+  font-family: "Glacial Indifference";
+  src: url("/fonts/GlacialIndifference-Bold.otf") format("otf"),
+       url("/fonts/GlacialIndifference-Bold.otf") format("otf");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+
+<!-- Table Styles -->
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+</style>
+</head>
+<body>
+  <!-- Skip link for keyboard users -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Header & Global Navigation -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="#hero">
+        <span class="brand-mark" aria-hidden="true"><img src="img\CPLogo-temp.png" /></span>
+        <span class="brand-text">CPs for MLLs</span>
+      </a>
+
+      <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#who">Who We Are</a></li>
+          <li><a href="#research">Our Research</a></li>
+          <li><a href="#video">Video Resources</a></li>
+          <li><a href="#classroom">Classroom Resources</a></li>
+          <li><a href="#links">Other Helpful Links</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero" aria-label="Hero">
+    <!-- Replace src with your hero image -->
+    <img
+      src="img\ALLCPline.png"
+      alt="Logos for the six CPs in a line"
+      width="1600" height="900"
+      loading="eager" decoding="async"
+    />
+    <div class="hero-overlay">
+      <div class="container">
+        <h1 class="hero-title">Transforming Education Through Research & Practice</h1>
+        <p class="hero-subtitle">Evidence-informed tools for multilingual and diverse learning communities.</p>
+        <a class="btn btn-primary" href="#research">Explore Our Work</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main -->
+  <main id="main">
+    <!-- Carousel / Slideshow of smaller images -->
+    <section class="carousel-section" aria-labelledby="carousel-heading">
+      <div class="container">
+        <h2 id="carousel-heading" class="section-title">Snapshots from the Field</h2>
+
+        <div class="carousel" aria-roledescription="carousel" aria-label="Image slideshow">
+          <div class="carousel-viewport" role="group" aria-live="polite">
+            <!-- Slide 1 -->
+            <figure class="slide is-active">
+              <img
+                src="img\Car1.jpg"
+                alt="Small group of students at a work table"
+                width="900" height="600"
+                loading="lazy" decoding="async"
+              />
+              <figcaption>Create a collaborative environment in your classroom.</figcaption>
+            </figure>
+
+            <!-- Slide 2 -->
+            <figure class="slide">
+              <img
+                src="img\Car2.jpg"
+                alt="Students look at a flash card"
+                width="900" height="600"
+                loading="lazy" decoding="async"
+              />
+              <figcaption>Help students feel supported while they engage in learning.</figcaption>
+            </figure>
+
+            <!-- Slide 3 -->
+            <figure class="slide">
+              <img
+                src="img\Car3.jpg"
+                alt="Students write in a small group while a teacher observes"
+                width="900" height="600"
+                loading="lazy" decoding="async"
+              />
+              <figcaption>Provide consistent feedback while students are working.</figcaption>
+            </figure>
+  
+
+            <!-- Add more <figure class="slide"> as needed -->
+          </div>
+
+          <button class="carousel-prev" aria-label="Previous slide" data-dir="prev">‹</button>
+          <button class="carousel-next" aria-label="Next slide" data-dir="next">›</button>
+
+          <!-- Pagination dots -->
+          <div class="carousel-dots" role="tablist" aria-label="Slide navigation">
+            <button role="tab" aria-selected="true" aria-controls="slide-1" tabindex="0"></button>
+            <button role="tab" aria-selected="false" aria-controls="slide-2" tabindex="-1"></button>
+            <button role="tab" aria-selected="false" aria-controls="slide-3" tabindex="-1"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sections for navigation -->
+    <section id="who" class="section">
+      <div class="container">
+        <h2 class="section-title">Who We Are</h2>
+
+<table style="width:100%">
+	<tr>
+	  <td><img
+      	src="img\1.png"
+     		alt="Headshot image of Megan Madigan Peercy"
+      	width="300"
+      	loading="eager" decoding="async"
+             />
+         </td>
+	   <td><small>Megan Madigan Peercy, Ph.D., is a Professor in the Department of Teaching and Learning, Policy and Leadership at the University of Maryland, where she teaches in two specializations: Applied Linguistics and Language Education, and Teacher Education and Professional Development. She also serves as Co-Director of the Multilingual Research Center. Her research examines pedagogies of teacher education and the preparation and career-long development of teachers who work with multilingual learners (MLLs). As a former MLL and Spanish teacher, she is deeply invested in bringing practice and theory into dialogue to support teachers and students. Her research has been funded by the Spencer Foundation, the Institute of Education Sciences, and the Maryland State Department of Education. Examples of her recent work appear in Linguistics and Education, Teaching and Teacher Education, TESOL Quarterly, and TESOL Journal. Her co-authored book Core Practices for Teaching Multilingual Students: Humanizing Pedagogies for Equity is an important resource for P-12 teachers of MLLs. Dr. Peercy is recipient of the American Educational Research Association Leadership Through Research Award, and Mid-Career Award, from the Second Language Research group. She has also been named a University of Maryland Distinguished Scholar-Teacher. She is co-author of Core Practices for Teaching Multilingual Students: Humanizing Pedagogies for Equity.</small></td>
+	</tr>
+	
+	<tr>
+	  <td><small>Johanna Tigert, Ph.D., is University Lecturer for the Department of Teacher Education at the University of Turku, Finland, where she works across multiple degree programs preparing classroom, early childhood, and craft education teachers. She identifies as a transnational scholar and teacher educator. She has MA degrees in Russian Language and Literature and in Teaching English to Speakers of Other Languages (ESOL), as well as a doctorate in Curriculum and Instruction with a specialization in applied linguistics and language education. She has worked as a Finnish heritage language instructor, as an English for Speakers of Other Languages (ESOL) teacher across multiple settings from K-12 schools to community colleges, and for the past decade, as a teacher educator in both the United States and Finland. Her research spans a wide variety of issues related to language education, including the development of the skills, knowledge, and dispositions of teachers in increasingly multilingual classrooms. Seeking to humanize the education of multilingual learners, her research focuses on ways language and culture can be brought to the forefront of classroom instruction, drawing on rich qualitative data gathered from policy documents, schools, teachers, and students. Her recent publications have appeared in Journal of Curriculum Studies and TESOL Journal. She is a coauthor of two books, Core practices for teaching multilingual students: Humanizing pedagogies for equity and Becoming language teacher educators: Critical friendships and communities.</small></td>
+	  <td><img
+      src="img\2.png"
+      alt="Headshot image of Johanna Tigert"
+      width="300"
+      loading="eager" decoding="async" 
+             />
+            </td>
+	 </tr>
+
+	<tr>
+	<td><img
+      src="img\3.png"
+      alt="Headshot image of Daisy Fredricks"
+      width="300"
+      loading="eager" decoding="async"
+             />
+            </td>
+		<td><small>Daisy Fredricks, Ph.D., is an Associate Professor of Teaching and Learning and Assistant Dean in the College of Education and Community Innovation at Grand Valley State University. She earned an MEd in Curriculum and Instruction with a focus in Bilingual and English as a Second Language (ESL) Education, and a PhD in Applied Linguistics from Arizona State University. Before entering higher education, Daisy served as a bilingual, ESL, and Structured English Immersion (SEI) teacher in elementary and middle school classrooms in Michigan, Texas, and Arizona. Her research explores teacher preparation, multilingual learner education, humanizing pedagogies, and core practices for teaching multilingual learners in PK–12 classrooms. She is dedicated to helping educators develop inclusive practices that respect and value the linguistic and cultural backgrounds of their students. Her recent work has appeared in TESOL Quarterly, Teaching and Teacher Education, TESOL Journal, and other peer-reviewed journals and books. She is co-author of Core Practices for Teaching Multilingual Students: Humanizing Pedagogies for Equity.</small></td>
+	    </tr>
+	  </table>
+<p>
+          We are educators, researchers, and community partners focused on language and literacy, equity,
+          and humanizing pedagogy. Our work was a collaboration between teacher educators, pre-service and in-service teachers, and graduate students.
+        </p>
+
+      </div>
+    </section>
+
+    <section id="research" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Our Research</h2>
+        <p>
+          <b>This section is not complete!</b>
+        </p>
+	  <p><a href="">Our Book</a> || <a href="">Article ABC</a> || <a href="">Article XYZ</a></p>
+      </div>
+    </section>
+
+    <section id="video" class="section">
+      <div class="container">
+        <h2 class="section-title">Video Resources</h2>
+        <p>We produced a series of short videos to go along with each of the Core Practices, featuring the real teachers and classrooms
+		centered in our book. You can find our full YouTube channel <a href="https://www.youtube.com/@corepracticesformlls" target="_blank">here</a>, or check out specific playlists aligned with each Core Practice below!
+      <table style="width:100%">
+	    <tr>
+		<td>
+		  <a href="https://www.youtube.com/watch?v=DgHGMJCEeZk&list=PL4tD304i3nc6UG5ISnciYPuBvcBPdCl9g" target="_blank">
+		   <img 
+			src="img\CP1.png"
+			alt="Core Practice 1 logo"
+			width="200"
+			loading="eager" decoding="async"
+			/></a>
+		  </td>
+		<td>
+		  <a href="https://www.youtube.com/watch?v=jH294Ce2ki8&list=PL4tD304i3nc7j7sSvwcddVl87MV86a4Ef" target="_blank">
+		   <img 
+			src="img\CP2.png"
+			alt="Core Practice 2 logo"
+			width="200"
+			loading="eager" decoding="async"
+			/></a>
+		</td>
+		<td>
+		  <a href="https://youtu.be/T0w_9Oql8V4?list=PL4tD304i3nc6xT83XCacUFp7i2AkxZezy" target="_blank">
+		   <img 
+			src="img\CP3.png"
+			alt="Core Practice 3 logo"
+			width="200"
+			loading="eager" decoding="async"
+			/></a>
+		  </td>
+		<td>
+		  <a href="https://youtu.be/xhQFozDp-Qs?list=PL4tD304i3nc7N7zonTjB-ARYEqjGvVla5" target="_blank">
+		   <img 
+			src="img\CP4.png"
+			alt="Core Practice 4 logo"
+			width="200"
+			loading="eager" decoding="async"
+			/></a>
+		  </td>
+		<td>
+		  <a href="https://youtu.be/pzuSSTEX4w4?list=PL4tD304i3nc5qpC56niNhzi49HwVfo5KF" target="_blank">
+		   <img 
+			src="img\CP5.png"
+			alt="Core Practice 5 logo"
+			width="200"
+			loading="eager" decoding="async"
+			/></a>
+		  </td>
+		<td>
+		  <a href="https://youtu.be/G3AauVoxU8M?list=PL4tD304i3nc6NQis2bN9ylocyDX3_rGhD" target="_blank">
+		   <img 
+			src="img\CP6.png"
+			alt="Core Practice 6 logo"
+			width="200"
+			loading="eager" decoding="async"
+			/></a>
+		  </td>
+		</tr>
+		</table>
+      </div>
+    </section>
+
+    <section id="classroom" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Classroom Resources</h2>
+        <ul class="resource-cards">
+          <li class="card">
+            <h3>Lesson Plan Template</h3>
+            <p>Plan content, language, and reflection with an equity lens.</p>
+            <a class="btn btn-outline" href="#">Download (DOCX)</a>
+          </li>
+          <li class="card">
+            <h3>Lesson Analysis Template - Version 1</h3>
+            <p>Identify core practices and record analytic notes while observing a lesson.</p>
+            <a class="btn btn-outline" href="#">Download (DOCX)</a>
+          </li>
+          <li class="card">
+            <h3>Lesson Analysis Template - Version 2</h3>
+            <p>Consider evidence of each core practice while observing a lesson.</p>
+            <a class="btn btn-outline" href="#">Download (DOCX)</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="links" class="section">
+      <div class="container">
+        <h2 class="section-title">Other Helpful Links</h2>
+        <ul class="link-list">
+          <li><a href="https://www.learningforjustice.org/frameworks/social-justice-standards" target="_blank" rel="noopener">Social Justice Standards</a> from Learning for Justice</li>
+          <li><a href="https://www.nytimes.com/interactive/2014/upshot/dialect-quiz-map.html" target="_blank" rel="noopener">New York Times dialect quiz</a> (requires access to the NYT)</li>
+          <li><a href="https://topr.online.ucf.edu/the-power-flower-an-inclusion-and-diversity-activity/" target="_blank" rel="noopener">Power Flower activity</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <h3>Core Practices for Teaching Multilingual Students</h3>
+        <p>Contact information goes here</br>if we want to include it</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#who">Who We Are</a></li>
+          <li><a href="#research">Our Research</a></li>
+          <li><a href="#video">Video Resources</a></li>
+          <li><a href="#classroom">Classroom Resources</a></li>
+          <li><a href="#links">Other Helpful Links</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Find us on YouTube</h4>
+        <p><a href="#" target="_blank" rel="noopener">Core Practice videos</a></p>
+      </div>
+    </div>
+    <div class="container footer-legal">
+      <small><span id="year"></span> Core Practices for Multilingual Learners.</small>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
