@@ -71,7 +71,7 @@ a:hover { text-decoration: underline; }
 }
 .nav-toggle span{ display:block; width:24px; height:2px; background:#fff; margin:5px 0; }
 
-@media (max-width: 860px){
+@media (max-width: 960px){
   .nav-toggle{ display:inline-block; }
   .primary-nav{ display:none; position:absolute; left:0; right:0; top:60px; background: var(--brand-black); padding: .75rem 1rem; }
   .primary-nav.open{ display:block; }
@@ -193,7 +193,7 @@ a:hover { text-decoration: underline; }
 .footer-col{ grid-column: span 12; }
 .footer-col h4, .footer-col h3{ margin-top:0; color: #fff; }
 .footer-col a{ color: #eaeaea; }
-@media (min-width: 760px){ .footer-col{ grid-column: span 4; } }
+@media (min-width: 860px){ .footer-col{ grid-column: span 4; } }
 .footer-legal{
   border-top: 1px solid #2a2a2a;
   padding: .9rem 0; text-align: center; color:#bdbdbd;
