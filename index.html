@@ -37,6 +37,29 @@ th, td {
   padding-right: 25px;
 }
 
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}	
+	
 </style>
 </head>
 <body>
@@ -198,9 +221,23 @@ th, td {
       <div class="container">
         <h2 class="section-title">Our Research</h2>
         <p>
-          <b>Our work centers the flourishing of multilingual students, families, and communities by focusing on the development of their teachers as humanizing practitioners. Using our core practices and supporting teachers’ humanizing understandings, we aim for all teachers to welcome students as whole human beings in their learning journeys. Key to this is teachers’ knowledge of how to move humanizing ideas and values into actionable practice, and we leverage core practices for multilingual students as a foundational way to support teachers in this.</b>
+          Our work centers the flourishing of multilingual students, families, and communities by focusing on the development of their teachers as humanizing practitioners. Using our core practices and supporting teachers’ humanizing understandings, we aim for all teachers to welcome students as whole human beings in their learning journeys. Key to this is teachers’ knowledge of how to move humanizing ideas and values into actionable practice, and we leverage core practices for multilingual students as a foundational way to support teachers in this.
         </p>
-	  <p><a href="">Our Book</a> || <a href="">Article ABC</a> || <a href="">Article XYZ</a></p>
+	  <p>Check out <a href="">our Core Practices book</a> on the publisher's website.</p>
+	  </br>
+		  <p>You can also access some of our recent research publications through the links below.</p>
+			<button type="button" class="collapsible">Core Practices</button>
+<div class="content">
+  <p><a href="https://doi.org/10.1016/j.tate.2022.103653">Peercy, M. M., Tigert, J., Fredricks, D., Kidwell, T., Feagin, K., Hall, W., Himmel, J., & Lawyer, M. (2022). From humanizing principles to humanizing practices: Exploring core practices as a bridge to enacting humanizing pedagogy with multilingual students. Teaching and Teacher Education, 113. </a></p>
+</div>
+<button type="button" class="collapsible">Humanizing Pedagogy</button>
+<div class="content">
+  <p><a href="https://doi.org/10.1016/j.linged.2024.101337">Peercy, M. M., Hardy-Skeberdis, M., & Crawford, J. (2024). “Because we bilingual”: Examining an early career ESOL teacher’s humanizing approach to language use. Linguistics and Education, 83. </a></p>
+</div>
+<button type="button" class="collapsible">Language Identity Portraits</button>
+<div class="content">
+  <p><a href="https://www.google.com/url?q=https://doi.org/10.1080/15348458.2026.2630200&sa=D&source=docs&ust=1780931137864049&usg=AOvVaw2_-VyviCwlTqWs9SCIsBGB">Tigert, J., Crawford, J., Jones, L., Fotouhi, G., Peercy, M. M., Hardy-Skeberdis, M., & Fredricks, D. (2026). Using language portraits to promote critical self-reflection for teaching multilingual students. Journal of Language, Identity, and Education.</a></p>
+</div>
       </div>
     </section>
 
@@ -208,7 +245,7 @@ th, td {
       <div class="container">
         <h2 class="section-title">Video Resources</h2>
         <p>We produced a series of short videos to go along with each of the Core Practices, featuring the real teachers and classrooms
-		centered in our book. You can find our full YouTube channel <a href="https://www.youtube.com/@corepracticesformlls" target="_blank">here</a>, or check out specific playlists aligned with each Core Practice below!
+		centered in our book. You can find our full YouTube channel <a href="https://www.youtube.com/@corepracticesformlls" target="_blank">here</a>, or click the buttons below to access specific playlists aligned with each Core Practice!
       <table style="width:100%">
 	    <tr>
 		<td>
@@ -331,6 +368,23 @@ th, td {
       <small><span id="year"></span> Core Practices for Multilingual Learners.</small>
     </div>
   </footer>
+
+	<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
 
   <script src="script.js" defer></script>
 </body>
